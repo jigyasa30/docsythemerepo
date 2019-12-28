@@ -1,0 +1,8 @@
+
+[submodule "themes/docsy"]
+	path = themes/docsy
+	url = https://github.com/google/docsy
+[submodule "public"]
+	path = public
+	url = git@github.com:jigyasa30/jigyasa30.github.io.git
+	branch = master
