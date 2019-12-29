@@ -1,5 +1,5 @@
 ---
-title: "Example Page"
+title: "Getting Started"
 linkTitle: "Example Page"
 date: 2017-01-05
 description: >
