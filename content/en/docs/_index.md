@@ -1,4 +1,3 @@
-
 ---
 title: "Documentation"
 linkTitle: "Documentation"
@@ -7,9 +6,7 @@ menu:
   main:
     weight: 30
 ---
-
-
-This guide will help you get started and acquainted with Nokia L4 support workflow .
+This guide will help you get started and acquainted with Nokia Care Tool (NCT) Nokia L4 support workflow.
 
 ## Purpose
 

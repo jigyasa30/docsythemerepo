@@ -3,3 +3,10 @@
 Add styles or override variables from the theme here.
 
 */
+$primary: #4f060c;
+$secondary: #A23B72;
+$blue: #b50d34 !default;
+$link-color: darken($blue, 15%) !default;
+$link-decoration: none !default;
+$link-hover-color: darken($link-color, 15%) !default;
+$link-hover-decoration: none !default;
