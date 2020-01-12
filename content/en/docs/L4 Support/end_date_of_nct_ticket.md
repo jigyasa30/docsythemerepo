@@ -2,7 +2,7 @@
 title: "End date of NCT ticket"
 linkTitle: "End Date of NCT Ticket"
 date: 2020-01-11T13:00:07+05:30
-draft: true
+draft: false
 weight: 6
 ---
 This field is set to provide the end date of the NCT ticket.
