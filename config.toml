@@ -74,7 +74,7 @@ title = "Technical Documentation"
 # Everything below this are Site Params
 
 [params]
-copyright = "AlertLens"
+copyright = "AlertLens."
 # privacy_policy = "https://policies.google.com/privacy"
 
 # First one is picked as the Twitter card image if not set on page.

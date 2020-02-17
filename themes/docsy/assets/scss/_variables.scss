@@ -1,5 +1,4 @@
 /*
-
 Bootstrap variables overrides for theme.
 See https://github.com/twbs/bootstrap/pull/23260
 */
@@ -27,7 +26,7 @@ $danger: #ED6A5A !default;
 $white: #fff !default;
 $light: #D3F3EE !default;
 
-$dark: #050505 !default;
+$dark: #403F4C !default;
 $blue: #72A1E5 !default;
 $orange: #BA5A31 !default;
 $gray-100: #f8f9fa !default;
@@ -52,7 +51,7 @@ $td-sidebar-border-color: $border-color !default;
 // Background colors for the sections on home page etc. It is a paint by number system, starting at 0, where the number is taken from the shortcode's ordinal
 // if not provided by the user.
 // These colors are all part of the theme palette, but the mix is fairly random to create variation. This can be overridden by the project if needed.
-$td-box-colors: $dark, $primary, $secondary, $info, $primary-light, $gray-600, $success, $warning, $dark, $danger, $primary, $secondary, $primary-light, $info;
+$td-box-colors: $dark, $primary, $secondary, $info, $primary-light, $gray-600, $success, $warning, $dark, $danger, $primary, $secondary, $primary-light, $info !default;
 
 $link-color: darken($blue, 15%) !default;
 $link-decoration: none !default;
