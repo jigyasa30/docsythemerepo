@@ -7,11 +7,8 @@ description: >
 draft: false
 ---
 
-
-
 Let’s walk through the end-to-end functionality of **AlertLens**.
-
-#### Log in for the first time
+### Log in for the first time
 
 1. Go to https://test1.alertlens.boltanalytics.com.
 
@@ -23,7 +20,7 @@ Let’s walk through the end-to-end functionality of **AlertLens**.
 
    You will be redirected to the screen displaying the list of **Data Sources**.
 
-#### Add Data Source
+### Add Data Source
 
 Let’s configure the data sources from which **AlertLens** gathers metrics for creating alerts. You can add freely available Grafana Wikimedia as a data source https://grafana.wikimedia.org:
 
@@ -37,7 +34,7 @@ Let’s configure the data sources from which **AlertLens** gathers metrics for 
 ​<br>
 A Data Source is configured.
 
-#### Create Alert Conditions
+### Create Alert Conditions
 
 Before creating a job, perform the following steps required to create alert conditions:
 
@@ -65,7 +62,7 @@ Before creating a job, perform the following steps required to create alert cond
 8. Click the **Submit** button and **Alert Condition** is created.
 
 
-#### Add Job Using Grafana Add Job Flow
+### Add Job Using Grafana Add Job Flow
 
 9. Open https://grafana.wikimedia.org/d/000000278/mysql-aggregated?orgId=1 in another browser tab.
 
@@ -109,7 +106,7 @@ Before creating a job, perform the following steps required to create alert cond
 
     Now, it will gather data from the **Data Source** and then perform **Training** and start **Inference**.  
 
-#### Training and Inference
+### Training and Inference
 
 
 
@@ -119,8 +116,7 @@ By default, the **Training** and **Inference** are turned off.
 
     By default, it goes back and gets 4 weeks of historical data (as shown in the **Scheduled for** column above). It takes about an hour. You can monitor the status in the **Summarizer** sub-tab. The whole process probably takes around an hour.
 
-#### Alert Notifications
-
+### Alert Notifications
 After Training and Inference has caught up to the current time, perform the following steps to set **Alert Notifications**:
 
 21. Go to **Dashboard** -> **Alert History** and see what Alerts have been triggered.
@@ -139,4 +135,4 @@ After Training and Inference has caught up to the current time, perform the foll
 
 24. Click the **Test** button to make sure it works.
 
-25. Now, go back to **Alert** -> **Definitions**. Edit (![img](/edit.JPG)) the definition to enable the alerting method and choose **Email** as **Notification**. 
+25. Now, go back to **Alert** -> **Definitions**. Edit (![img](/edit.JPG)) the definition to enable the alerting method and choose **Email** as **Notification**.
