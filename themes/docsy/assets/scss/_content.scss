@@ -35,13 +35,18 @@
         @extend .img-fluid;
     }
 
-    > table {
+    > table, {
         @extend .table-striped;
 
         @extend .table-responsive;
 
         @extend .table;
+        
     }
+
+
+
+
 
     > blockquote {
         padding: 0 0 0 1rem;

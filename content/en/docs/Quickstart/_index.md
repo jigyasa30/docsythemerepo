@@ -10,9 +10,9 @@ draft: false
 Let’s walk through the end-to-end functionality of **AlertLens**.
 ### Log in for the first time
 
-1. Go to https://test1.alertlens.boltanalytics.com.
+1. Go to the **AlertLens URL** provided to you.
 
-2. Login with the default credentials.
+2. Log in with the default credentials which are provided to you.
 
    You will be prompted to change the default password at first login.
 
@@ -22,7 +22,7 @@ Let’s walk through the end-to-end functionality of **AlertLens**.
 
 ### Add Data Source
 
-Let’s configure the data sources from which **AlertLens** gathers metrics for creating alerts. You can add freely available Grafana Wikimedia as a data source https://grafana.wikimedia.org:
+Let’s configure the data sources from which **AlertLens** gathers metrics for creating alerts. As an example for the quick start, let's add a panel from one of the Grafana (open source) dashboards at https://grafana.wikimedia.org.
 
 4. Click the **Add** button next to the Grafana data source.
 
@@ -32,7 +32,7 @@ Let’s configure the data sources from which **AlertLens** gathers metrics for 
 <br>
 ![img](/grafana_data_source.JPG)<br>
 ​<br>
-A Data Source is configured.
+A **Data Source** is configured.
 
 ### Create Alert Conditions
 
@@ -100,7 +100,7 @@ Before creating a job, perform the following steps required to create alert cond
 
     ![img](/job_summary.PNG)
 
-19. Click **Save**. Congrats! The First job has been created.
+19. Click **Save**. Congrats! The First **Job** has been created.
 
     ![img](/job_created.PNG)
 
@@ -117,7 +117,7 @@ By default, the **Training** and **Inference** are turned off.
     By default, it goes back and gets 4 weeks of historical data (as shown in the **Scheduled for** column above). It takes about an hour. You can monitor the status in the **Summarizer** sub-tab. The whole process probably takes around an hour.
 
 ### Alert Notifications
-After Training and Inference has caught up to the current time, perform the following steps to set **Alert Notifications**:
+After Training and Inference has caught up to the current time, perform the following steps to set [**Alert Notifications**](/docs/settings/alert-notifications/):
 
 21. Go to **Dashboard** -> **Alert History** and see what Alerts have been triggered.
 
@@ -125,11 +125,8 @@ After Training and Inference has caught up to the current time, perform the foll
 
     Let’s add a notification by **Email**.
 
-23. Click the **Add** button and choose **Type** as **Email.**
-
-    You can add your Gmail account as the sender and the recipient. Refer following website for the settings: https://www.siteground.com/kb/google_free_smtp_server/
-
-
+23. Click the **Add** button and choose **Type** as **Email** and enter all the email credentials. For configuration settings, refer section
+[Email Settings](/docs/settings/alert-notifications/email/).
 
     ![img](/notification_email.PNG)
 
