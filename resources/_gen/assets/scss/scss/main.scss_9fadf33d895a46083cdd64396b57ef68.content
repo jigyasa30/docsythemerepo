@@ -190,7 +190,8 @@ svg {
   vertical-align: middle; }
 
 table {
-  border-collapse: collapse; }
+  
+  border: 1px solid black;}
 
 caption {
   padding-top: 0.75rem;
@@ -4066,7 +4067,7 @@ button.close {
   .bs-popover-top .arrow::before, .bs-popover-auto[x-placement^="top"] .arrow::before {
     bottom: 0;
     border-top-color: rgba(0, 0, 0, 0.25); }
-  
+
   .bs-popover-top .arrow::after,
   .bs-popover-auto[x-placement^="top"] .arrow::after {
     bottom: 1px;
@@ -4086,7 +4087,7 @@ button.close {
   .bs-popover-right .arrow::before, .bs-popover-auto[x-placement^="right"] .arrow::before {
     left: 0;
     border-right-color: rgba(0, 0, 0, 0.25); }
-  
+
   .bs-popover-right .arrow::after,
   .bs-popover-auto[x-placement^="right"] .arrow::after {
     left: 1px;
@@ -4103,7 +4104,7 @@ button.close {
   .bs-popover-bottom .arrow::before, .bs-popover-auto[x-placement^="bottom"] .arrow::before {
     top: 0;
     border-bottom-color: rgba(0, 0, 0, 0.25); }
-  
+
   .bs-popover-bottom .arrow::after,
   .bs-popover-auto[x-placement^="bottom"] .arrow::after {
     top: 1px;
@@ -4132,7 +4133,7 @@ button.close {
   .bs-popover-left .arrow::before, .bs-popover-auto[x-placement^="left"] .arrow::before {
     right: 0;
     border-left-color: rgba(0, 0, 0, 0.25); }
-  
+
   .bs-popover-left .arrow::after,
   .bs-popover-auto[x-placement^="left"] .arrow::after {
     right: 1px;
@@ -6392,7 +6393,7 @@ a.text-dark:hover, a.text-dark:focus {
     border: 1px solid #000; }
   .table, .td-box .row.section > table, .td-content > table {
     border-collapse: collapse !important; }
-    
+
     .table td,
     .td-box .row.section > table td,
     .td-content > table td, .table th, .td-box .row.section > table th, .td-content > table th {
@@ -12193,7 +12194,8 @@ readers do not read off random characters that represent icons */
     margin: 0;
     padding: 0; }
 
-.td-content p code, .td-content li > code, .td-content table code {
+.td-content p code, .td-content li > code, .td-content table code td th {
+  border: 1px solid black;
   color: inherit;
   padding: 0.2em 0.4em;
   margin: 0;
@@ -12201,7 +12203,7 @@ readers do not read off random characters that represent icons */
   word-break: normal;
   background-color: rgba(0, 0, 0, 0.05);
   border-radius: 0.25rem; }
-  .td-content p code br, .td-content li > code br, .td-content table code br {
+  .td-content p code br, .td-content li > code br, .td-content table code td th br {
     display: none; }
 
 .td-content pre {
