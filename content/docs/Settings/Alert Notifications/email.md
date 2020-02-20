@@ -19,7 +19,8 @@ Following table describes the fields with values to set your **Gmail** account f
 | Sender      |        |
 | Receiver(s) |         |
 
-To generate your **AlertLens Password**, perform the following steps:
+### Generate AlertLens Password for Gmail
+
 1. Log in to your **Gmail** account.
 
 2. Click the **Google Account** icon on the top right corner of the screen.
