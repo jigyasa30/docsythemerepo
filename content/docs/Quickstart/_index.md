@@ -114,7 +114,7 @@ By default, the **Training** and **Inference** are turned off.
 ### Step 6: Alert Notifications
 After Training and Inference has caught up to the current time, perform the following steps to set [**Alert Notifications**](/docs/settings/alert-notifications/):
 
-1. Go to **Dashboard** -> **Alert History** and see what Alerts have been triggered.
+1. Go to [**Dashboard**](/docs/dashboard/) -> [**Alert History**](/docs/dashboard/alerts_history/) and see what Alerts have been triggered.
 
 2. Click the **Gearbox** icon ![img](/gearbox.JPG) in the top right corner of the screen, select **Alert** -> **Notifications**.
 
@@ -127,4 +127,4 @@ After Training and Inference has caught up to the current time, perform the foll
 
 4. Click the **Test** button to make sure it works.
 
-5. Now, go back to **Alert** -> **Definitions**. Edit (![img](/edit.JPG)) the definition to enable the alerting method and choose **Email** as **Notification**.
+5. Now, go back to **Alert** -> **Definitions**. Edit (![img](/edit.JPG)) the definition to enable the alerting method and choose [**Email**](/docs/settings/alert-notifications/email/) as **Notification**.
