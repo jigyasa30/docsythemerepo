@@ -6,8 +6,8 @@ date: 2017-01-05
 description: >
 draft: false
 ---
-**Dashboard** is the first page that appears when you log in to the **Alertlens** every time after first log in. Dashboard displays [**Alert History**](/docs/dashboard/alerts_history/) and **Time Window**. The Time Window displays the Alert History generated in that time frame.
-By default, the Time Window is set for last 6 hours.
+**Dashboard** is the first page that appears when you log in to the **Alertlens** every time after the first login. Dashboard displays [**Alert History**](/docs/dashboard/alerts_history/) and **Time Window**. The Time Window displays the Alert History generated in that time frame.
+By default, the Time Window is set for the last 6 hours.
 
 ### Time Window
 
