@@ -12193,8 +12193,7 @@ readers do not read off random characters that represent icons */
     margin: 0;
     padding: 0; }
 
-.td-content p code, .td-content li > code, .td-content table code td th {
-  border: 1px solid black;
+.td-content p code, .td-content li > code, .td-content table code {
   color: inherit;
   padding: 0.2em 0.4em;
   margin: 0;
@@ -12202,7 +12201,7 @@ readers do not read off random characters that represent icons */
   word-break: normal;
   background-color: rgba(0, 0, 0, 0.05);
   border-radius: 0.25rem; }
-  .td-content p code br, .td-content li > code br, .td-content table code td th br {
+  .td-content p code br, .td-content li > code br, .td-content table code br {
     display: none; }
 
 .td-content pre {

@@ -20,8 +20,7 @@
     }
 
     // Inline code
-    p code, li > code, table code td th {
-        border: 1px solid black;
+    p code, li > code, table code {
         color: inherit;
         padding: 0.2em 0.4em;
         margin: 0;
